@@ -1,0 +1,18 @@
+{% extends "users/base.html" %}
+{% block content %}
+    <div calss="contect-section">
+        <div class="container">
+            <h1>Communication LTD</h1>
+            <div class="border-top pt-3">
+                <p>
+                    Welcome to Communication LTD
+                </p>
+            </div>
+            <div class="border-top pt-3">
+                {% load static %}
+                <img src="{% static 'homepage/image.jpg' %}" alt="My image">
+            </div>
+        </div>
+
+    </div>
+{% endblock content %}
